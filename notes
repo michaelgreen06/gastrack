@@ -1,0 +1,8 @@
+/api?module=account&action=txlist&address=eth:0x230Fc981F7CaE90cFC4ed4c18F7C178B239e5F9F&startblock=0&endblock=99999999&sort=asc&apikey=S58AX7RGE8H35RT8QXD4RQ2A427RQF7B1M
+
+
+https://api.etherscan.com/api?module=account&action=txlist&address=0x230Fc981F7CaE90cFC4ed4c18F7C178B239e5F9F&startblock=0&endblock=99999999&sort=asc&apikey=S58AX7RGE8H35RT8QXD4RQ2A427RQF7B1M
+works
+
+https://api.etherscan.io/api?module=account&action=txlist&address=0x230Fc981F7CaE90cFC4ed4c18F7C178B239e5F9F&startblock=0&endblock=99999999&page=1&offset=10&sort=asc&apikey=S58AX7RGE8H35RT8QXD4RQ2A427RQF7B1M
+doesnt work - internal transactions
