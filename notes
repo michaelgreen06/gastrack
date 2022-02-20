@@ -19,7 +19,8 @@ works - Get a list of 'Normal' Transactions By Address - option 1
 
 https://api.etherscan.io/api?module=account
 &action=txlist
-&address=0x230Fc981F7CaE90cFC4ed4c18F7C178B239e5F9F&startblock=0
+&address=0x230Fc981F7CaE90cFC4ed4c18F7C178B239e5F9F
+&startblock=0
 &endblock=99999999
 &page=1
 &offset=10
@@ -28,7 +29,9 @@ https://api.etherscan.io/api?module=account
 doesnt work - Get a list of 'Normal' Transactions By Address - option 2
 
 https://api.etherscan.io/api?module=account
-&action=txlistinternal&address=0x230Fc981F7CaE90cFC4ed4c18F7C178B239e5F9F&startblock=0
+&action=txlistinternal
+&address=0x230Fc981F7CaE90cFC4ed4c18F7C178B239e5F9F
+&startblock=0
 &endblock=2702578
 &sort=asc
 &apikey=S58AX7RGE8H35RT8QXD4RQ2A427RQF7B1M
