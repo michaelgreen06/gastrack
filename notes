@@ -1,6 +1,10 @@
 works - Get a list of 'Normal' Transactions By Address - option 1
 git commit
 Did I do it?!
+To calc gas price it is: gasPrice*gasUsed/1x10^18?
+from=executor
+Timestamp needs to be converted to UTC Time
+hash=txn hash
 
 https://api.etherscan.com/api
 ?module=account
