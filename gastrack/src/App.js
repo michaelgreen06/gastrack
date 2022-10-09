@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import {AgGridReact} from 'ag-grid-react';
-
+import 'ag-grid-community/dist/styles/ag-grid.css';
+import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
 
 
 function App() {
@@ -19,11 +20,14 @@ function App() {
     {field:'From'},
     {field:'gas price'},
     {field:'gas used'},
+    {field:'make'},
+    {field:'model'},
+    {field:'price'},
     {field:'Gas paid (eth)'}
   ];
   
   return (
-    <div>
+    <div className='ag-theme-alpine' style={{height: 500}}>
     <AgGridReact
       rowData={rowData}
       columnDefs={columnDefs}/>
